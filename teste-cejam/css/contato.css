@@ -1,0 +1,59 @@
+.contato{
+    background: #bd3232;
+}
+
+.contato h2 {
+    color: #ffffff;
+}
+
+.contato .section-title {
+    padding-bottom: 20px;
+}
+
+.contato h2 > small,
+.contato p,
+.contato a {
+    color: #f9f9f9;
+}
+
+#contato-form {
+    padding: 1em 0;
+}
+
+#contato-form .col-md-12,
+#contato-form .col-md-4 {
+    padding-left: 0;
+}
+
+#contato-form .form-control {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 10px 0;
+}
+
+#contato-form input {
+    height: 50px;
+}
+
+#contato-form input[type='submit'] {
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+#contato-form input[type='submit']:hover {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.contato-imagem {
+    padding: 0;
+    margin-left: 80px;
+    margin-top: 32px;
+}
+
+.img-responsive {
+    max-width: 400px;
+    max-height: 400px;
+}

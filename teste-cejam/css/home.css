@@ -1,0 +1,86 @@
+.home-imagem {
+    background-image: url('../imagens/galeria/06.jpg');
+    opacity: 0.7;
+	padding: 4em 0 4em 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home-imagem h2 {
+    color: #ffffff;
+    text-shadow: #000000 0.1em 0.1em 0.6em;
+	font-family: 'Tangerine', cursive;
+	font-size: -webkit-xxx-large;
+	line-height: 1.35em;
+	margin: 0;
+	padding: 2.1em;
+	position: relative;
+	width: 40%;
+}
+
+@media screen and (max-width: 1680px) {
+	.home-imagem {
+		padding: 8em 0 6em 0;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.home-imagem {
+		padding: 6em 0 4em 0;
+	}
+	.home-imagem h2 {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.home-imagem {
+		padding: 4em 2em 2em 2em;
+	}
+	.home-imagem h2 {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.home-imagem {
+		padding: 3em 1.5em 1em 1.5em;
+	}
+	.home-imagem h2 {
+		font-size: 2em;
+	}
+	.home-imagem p {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.home-imagem {
+		padding: 3em 1em 1em 1em;
+	}
+	.home-imagem h2 {
+		font-size: 1.65em;
+		width: 100%;
+	}
+}
+
+.voltar-topo {
+	background-color: #38322e;
+	border-radius: 65px;
+	bottom: 14px;
+	box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+	cursor: pointer;
+	position: fixed;
+	height: 40px;
+	right: 22px;
+	width: 40px;
+	z-index: 3;
+}
+
+.voltar-topo i,
+.voltar-topo a {
+	margin-left: 15px;
+	margin-top: 12px;
+}
